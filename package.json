@@ -1,12 +1,12 @@
 {
-  "name": "ss-less",
-  "author": "Paul Jensen <paul@socketstream.com>",
+  "name": "teeleader-ss-less",
+  "author": "Krishna Glick <krishnaglick@gmail.com>",
   "description": "Less (CSS) wrapper for SocketStream 0.3",
-  "version": "0.1.3",
+  "version": "0.2",
   "main": "./lib/wrapper.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/socketstream/ss-less"
+    "url": "https://github.com/teeleader/ss-less"
   },
   "engines": {
     "node": ">= 0.10.0"

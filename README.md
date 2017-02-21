@@ -5,17 +5,17 @@ Allows you to use [Less](http://lesscss.org/) files (.less) in your SocketStream
 
 ### Instructions
 
-Add `ss-less` to your application's `package.json` file and then add this line to app.js:
+Add `teeleader-ss-less` to your application's `package.json` file and then add this line to app.js:
 
 ```javascript
-ss.client.formatters.add(require('ss-less'));
+ss.client.formatters.add(require('teeleader-ss-less'));
 ```
 
 ### JavaScript variable injection
 
-The `ss-less` wrapper allows you to inject JavaScript variables into your Less code via a prepended Less string of your own making. For example:
+The `teeleader-ss-less` wrapper allows you to inject JavaScript variables into your Less code via a prepended Less string of your own making. For example:
 
-	var ssLess = require('ss-less');
+	var ssLess = require('teeleader-ss-less');
 	var assetsPath = 'https://s3.amazonaws.com/example_assets_path/';
 	...
 	ssLess.prependLess('@assets-path: "' + assetsPath + '"');
