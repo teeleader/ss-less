@@ -2,7 +2,7 @@
   "name": "teeleader-ss-less",
   "author": "Krishna Glick <krishnaglick@gmail.com>",
   "description": "Less (CSS) wrapper for SocketStream 0.3",
-  "version": "0.2",
+  "version": "0.2.0",
   "main": "./lib/wrapper.js",
   "repository": {
     "type": "git",
